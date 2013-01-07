@@ -30,4 +30,9 @@
     STAssertTrue(TRUE,@"Some test scenario has passed.",nil);
 }
 
+- (void)testExample2
+{
+    STAssertTrue(FALSE,@"Some test scenario has failed.",nil);
+}
+
 @end
