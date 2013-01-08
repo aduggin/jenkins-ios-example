@@ -22,6 +22,7 @@
 		BC22506813B2BA940006D350 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC22506613B2BA940006D350 /* InfoPlist.strings */; };
 		BC22506B13B2BA940006D350 /* JenkinsIOSExampleTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BC22506A13B2BA940006D350 /* JenkinsIOSExampleTests.h */; };
 		BC22506D13B2BA940006D350 /* JenkinsIOSExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC22506C13B2BA940006D350 /* JenkinsIOSExampleTests.m */; };
+		F38947CD169CB9B900CA3121 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F38947CC169CB9B900CA3121 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BC22506913B2BA940006D350 /* JenkinsIOSExampleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JenkinsIOSExampleTests-Prefix.pch"; sourceTree = "<group>"; };
 		BC22506A13B2BA940006D350 /* JenkinsIOSExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JenkinsIOSExampleTests.h; sourceTree = "<group>"; };
 		BC22506C13B2BA940006D350 /* JenkinsIOSExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsIOSExampleTests.m; sourceTree = "<group>"; };
+		F38947CC169CB9B900CA3121 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		BC22502E13B2BA930006D350 = {
 			isa = PBXGroup;
 			children = (
+				F38947CC169CB9B900CA3121 /* Default-568h@2x.png */,
 				BC22504313B2BA940006D350 /* JenkinsIOSExample */,
 				BC22506313B2BA940006D350 /* JenkinsIOSExampleTests */,
 				BC22503C13B2BA940006D350 /* Frameworks */,
@@ -225,6 +228,7 @@
 				BC22504813B2BA940006D350 /* InfoPlist.strings in Resources */,
 				BC22505113B2BA940006D350 /* MainWindow.xib in Resources */,
 				BC22505713B2BA940006D350 /* JenkinsIOSExampleViewController.xib in Resources */,
+				F38947CD169CB9B900CA3121 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
