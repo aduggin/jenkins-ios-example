@@ -25,14 +25,19 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testSTAssertTrue
 {
-    STAssertTrue(TRUE,@"Some test scenario has passed.",nil);
+    STAssertTrue(TRUE,@"STAssertTrue has passed.",nil);
 }
 
-- (void)testExample2
+- (void)testSTAssertFalse
 {
-    STAssertTrue(FALSE,@"Some test scenario has failed.",nil);
+    STAssertFalse(FALSE,@"STAssertFalse has failed.",nil);
+}
+
+- (void)testSTAssertEquals
+{
+    STAssertEquals(24, 24 ,@"STAssertFalse has failed.",nil);
 }
 
 @end
